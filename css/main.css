@@ -6,7 +6,9 @@
 @import "header.css";
 @import "navbar.css";
 @import "projects.css";
-
+html {
+  scroll-behavior: smooth;
+}
 a {
   color: white;
 }
