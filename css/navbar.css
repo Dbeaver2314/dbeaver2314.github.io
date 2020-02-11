@@ -1,0 +1,39 @@
+#navbar {
+  /* position: relative; */
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+}
+.centerNav {
+  position: relative;
+  height: 2.5em;
+  width: 100vw;
+  text-align: center;
+  padding-top: 1em;
+}
+#navbar a {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  color: #f2f2f2;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  /* margin-left: 10em; */
+  text-decoration: none;
+  font-size: 1em;
+  text-align: center;
+}
+.letterFix {
+  letter-spacing: normal;
+}
+#navbar a:hover {
+  text-decoration: underline;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  /* width: auto; */
+}

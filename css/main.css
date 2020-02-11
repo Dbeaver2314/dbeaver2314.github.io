@@ -6,3 +6,7 @@
 @import "header.css";
 @import "navbar.css";
 @import "projects.css";
+
+a {
+  color: white;
+}
