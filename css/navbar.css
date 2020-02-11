@@ -8,10 +8,11 @@
 }
 .centerNav {
   position: relative;
-  height: 2.5em;
+  height: 3em;
   width: 100vw;
   text-align: center;
   padding-top: 1em;
+  padding-bottom: 2em;
 }
 #navbar a {
   font-family: "Roboto", sans-serif;
@@ -35,5 +36,6 @@
 .sticky {
   position: fixed;
   top: 0;
+  z-index: 2;
   /* width: auto; */
 }

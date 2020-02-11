@@ -1,7 +1,25 @@
-.next {
-  background: linear-gradient(#1a2e47, #f0655e);
+.aboutMe {
+  background: linear-gradient(#1a2e47, #f0655e 50%);
   /* background-color: #f0655e; */
-  height: 100vh;
+  height: 150vh;
 }
-
-/* font-family: 'Dosis', sans-serif; */
+.who {
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
+  font-size: 8em;
+  color: white;
+  text-align: left;
+  text-transform: uppercase;
+}
+.who-p {
+  font-family: "roberto", sans-serif;
+  color: #fff;
+}
+.what {
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  font-size: 8em;
+  color: #fff;
+  text-align: right;
+  text-transform: uppercase;
+}
