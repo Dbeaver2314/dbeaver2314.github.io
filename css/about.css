@@ -21,5 +21,10 @@
   font-size: 8em;
   color: #fff;
   text-align: right;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
+}
+.what-p {
+  font-family: "roberto", sans-serif;
+  color: #fff;
+  text-align: right;
 }
