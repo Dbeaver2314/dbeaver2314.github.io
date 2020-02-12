@@ -12,7 +12,7 @@
   width: 100vw;
   text-align: center;
   padding-top: 1em;
-  padding-bottom: 2em;
+  padding-bottom: 3em;
 }
 #navbar a {
   font-family: "Roboto", sans-serif;
@@ -23,7 +23,7 @@
   padding-right: 2.5em;
   /* margin-left: 10em; */
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.3em;
   text-align: center;
 }
 .letterFix {

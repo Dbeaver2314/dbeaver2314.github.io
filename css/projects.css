@@ -1,0 +1,42 @@
+.work {
+  height: 240vh;
+  background-color: rgb(255, 146, 22);
+  overflow: hidden;
+}
+.work-heading {
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
+  font-size: 8em;
+  padding-top: 1em;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+.work-wrapper {
+  position: relative;
+  /* height: 100%; */
+  width: auto;
+  top: 10em;
+
+  /* overflow: hidden; */
+}
+.image-TM {
+  position: relative;
+  height: 200px;
+  width: auto;
+}
+.row {
+  padding: 2em;
+}
+.row2 {
+  padding: 2em;
+}
+.work-photo {
+  border-radius: 20px 0;
+  box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.9);
+}
+.work-text {
+  font-family: "roberto", sans-serif;
+  color: #fff;
+  text-align: center;
+}
