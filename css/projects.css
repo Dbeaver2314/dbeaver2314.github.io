@@ -1,6 +1,6 @@
 .work {
   height: 240vh;
-  background-color: rgb(255, 146, 22);
+  background: linear-gradient(90deg, rgb(253, 141, 13), rgb(255, 221, 27));
   overflow: hidden;
 }
 .work-heading {
@@ -25,6 +25,7 @@
   height: 200px;
   width: auto;
 }
+
 .row {
   padding: 2em;
 }
@@ -39,4 +40,30 @@
   font-family: "roberto", sans-serif;
   color: #fff;
   text-align: center;
+}
+.centerBtn {
+  text-align: center;
+}
+.view {
+  font-family: "roberto", sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: white;
+  background: transparent;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #f0655e;
+  border-radius: 2px;
+  margin: 0.75rem;
+  padding: 16px 32px;
+  min-width: 12.5rem;
+  transition: background 0.3s, color 0.3s;
+  transition-property: background, color;
+  transition-duration: 0.3s, 0.3s;
+  transition-timing-function: ease, ease;
+  transition-delay: 0s, 0s;
+}
+
+.view:hover {
+  background-color: #f0655e;
 }
