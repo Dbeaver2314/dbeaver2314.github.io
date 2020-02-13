@@ -30,3 +30,17 @@
   color: #fff;
   text-align: right;
 }
+@media only screen and (max-width: 980px) {
+  .who {
+    font-size: 4em;
+  }
+  .what {
+    font-size: 4em;
+  }
+}
+@media only screen and (max-width: 1350px) {
+  .aboutMe {
+    margin-bottom: auto;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
