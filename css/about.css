@@ -1,9 +1,7 @@
 .aboutMe {
   position: relative;
   background: linear-gradient(#1a2e47, #f0655e 50%);
-  height: 180vh;
-  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
-  margin-bottom: -10vw;
+  height: auto;
 }
 .who {
   font-family: "Dosis", sans-serif;
@@ -17,18 +15,10 @@
   font-family: "roberto", sans-serif;
   color: #fff;
 }
-.what {
-  font-family: "Dosis", sans-serif;
-  font-weight: 600;
-  font-size: 8em;
-  color: #fff;
-  text-align: right;
-  text-transform: uppercase;
-}
+
 .what-p {
   font-family: "roberto", sans-serif;
   color: #fff;
-  text-align: right;
 }
 @media only screen and (max-width: 980px) {
   .who {

@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Daniel Beaver</title>
     <link
@@ -67,26 +68,19 @@
       <br />
       <div class="container-fluid">
         <div class="row">
-          <div class="col-1"></div>
-          <div class="col-5">
+          <div class="col-2"></div>
+          <div class="col-10">
             <h2 class="who">
-              who is <br />
-              this <br />
+              who is 
+              this 
               man?
             </h2>
           </div>
-          <div class="col-5">
-            <h2 class="what">
-              Well... <br />
-              what can <br />
-              he Do?
-            </h2>
-            <div class="col-1"></div>
-          </div>
+
         </div>
         <div class="row">
           <div class="col-1"></div>
-          <div class="col-4">
+          <div class="col-sm-12 col-md-4">
             <p class="who-p">
               My name is Daniel, and I’m a web developer based in Indianapolis Indiana. I am passionate about blending great design with functionality. Solving challenging problems is what I get excited for. I spent the first five years of my career as a journalist with various news outlets. Every day I interviewed people from all walks of life; everyone from presidents to prisoners. This background puts me in the unique position of being your go to developer to communicate project updates with the team and clients.
             </br> 
@@ -98,7 +92,7 @@
             </p>
           </div>
           <div class="col-2"></div>
-          <div class="col-4">
+          <div class="col-sm-12 col-md-4">
             <p class="what-p">
               HTML, CSS, Javascript, React, Node; these are skills you’ll find on most every web portfolio, and while you will find them here too its what I offer beyond them that sets me apart. I’m a proven expert communicator who thrives under pressure. As a News Videographer I developed a passion for visual storytelling, using color, design and layout to convey and evoke emotion.
             </br >
@@ -112,21 +106,68 @@
         </div>
       </div>
     </section>
+    <section>
     <a name="work"></a>
     <section class="work">
       <h2 class="work-heading">Work</h2>
       <div class="work-wrapper">
-        
+        <div class="continer-fluid">
+          <div class="row">
+            <div class="col-md-5">
+        <div class="TMa-wrapper">
+        <a class="TMa" href="https://dbeaver2314.github.io/StaticLayout/"target="blank" width="100%"> <img src="./assets/tm.PNG" alt="" width="100%" height="auto" class="work-photo"></a>
+      </div>
+      </div>
+      <div class="col-md-5">
+        <div class="TMtext">One of our first projects at ElevenFifty was to recreate a professional company website. I chose the local agency TrendyMinds. This page was build in HTML, CSS and JavaScript. This was an excellent learning opportunity to familiarize myself with the basics, but in a design focused way. <br> <a href="https://github.com/Dbeaver2314/StaticLayout"> View code on Github</a></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-5">
+  <div class="TMa-wrapper">
+  <a class="TMa" href="https://dcb-sprint-tracker2020.herokuapp.com/"target="blank" width="100%"> <img src="./assets/SprintTracker.PNG" alt="" width="100%" height="auto" class="work-photo"></a>
+</div>
+</div>
+<div class="col-md-5 col-sm-12">
+  <div class="TMtext">This is an application for tracking agile sprints. When you create a manager account you also make a team. As the manager only you have permission to add item to the team backlog- this is a core concept of agile. As a user account type you can mark what items from the team backlog you will be responsible for. This App is built using React, Node, JSX, PostgreSQL, and deployed through Heroku.<br> UNDER CONSTRUCTION: adding more style and user authentication with Auth0 <br> <a href="https://github.com/Dbeaver2314/sprintTracker">View code on Github</a></div>
+</div>
+</div>
 
+<div class="row">
+  <div class="col-md-5">
+<div class="TMa-wrapper">
+<a class="TMa" href="https://dbeaver2314.github.io/smartRockets/"target="blank" width="100%"> <img src="./assets/SmartRockets.PNG" alt="" width="100%" height="auto" class="work-photo"></a>
+</div>
+</div>
+<div class="col-md-5 col-sm-12">
+<div class="TMtext">In my free time I have been studying genetic algorithms and machine learning. This is a project demonstrating a genetic algorithm. The “rockets” goal is to reach the circle at the top of the screen. Each generation has a life span of 8 seconds. At the end of each generation the strongest genes get to reproduce to the next round. In order to better model a real life cycle each generation also includes random “DNA” this can cause huge leaps in development, or hinder development. This project was made using the P5 JavaScript library. <br> <a href="https://github.com/Dbeaver2314/smartRockets">View code on Github</a></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-md-5">
+<div class="TMa-wrapper">
+<a class="TMa" href="https://db-iss-tracker-api.firebaseapp.com/"target="blank" width="100%"> <img src="./assets/ISS.PNG" alt="" width="100%" height="auto" class="work-photo"></a>
+</div>
+</div>
+<div class="col-md-5 col-sm-12">
+<div class="TMtext">I have a deep love and passion for all things space. This API based project is an expression of that passion. Using WhereTheISS API alongside GoogleMaps I am able to track the position of the International Space Station at any given second. This site is deployed through Firebase. </div>
+</div>
+</div>
 
+  </div>
+
+  </div>
+</section>
+
+<!-- 
         <div class="container-fluid">
           <div class="row">
             <div class="col-1"></div>
-            <div class="col-5">
+            <div class="col-sm-12 col-md-12 col-lg-6">
              <a href="https://dbeaver2314.github.io/StaticLayout/"target="blank"> <img src="./assets/tm.PNG" alt="" width="500" height="320" class="work-photo"></a>
             
             </div>
-            <div class="col-5 centerBtn">
+            <div class="col-sm-12 col-md-4 centerBtn">
               <p class="work-text ">
               I set out to re-create a local company's website. This project uses HTML,CSS, and Bootstrap. as one of my earliest projects this site helped me to master the basics. Even though this is a static web page with no functionality it still feels very useable due to animations on buttons and links. Working with images of all shapes and sizes really helped me to master how to position elements on a page.
             </p>
@@ -150,7 +191,7 @@
           </div>
           <div class="col-5 ">
             <!-- <div class="HAL"><span class="photo-overlay"></spanc></div> -->
-           <a href="https://codepen.io/DCBeaver/pen/rNabvxY"target="blank"> <img src="./assets/HAL.png" alt="" width="500" height="320" class="work-photo"></a>
+           <!-- <a href="https://codepen.io/DCBeaver/pen/rNabvxY"target="blank"> <img src="./assets/HAL.png" alt="" width="500" height="320" class="work-photo"></a>
           </div>
           <div class="col-1"></div>
     
@@ -173,7 +214,7 @@
         </div>
       </div>
       </div>
-     
+       -->
     </section>
     <section class="contact">
       <div class="container-fluid">
