@@ -1,5 +1,5 @@
 .work {
-  height: 350vh;
+  height: 250vh;
   background: linear-gradient(90deg, #fdb376, #f9644b);
   overflow: hidden;
 }
@@ -62,9 +62,18 @@
   }
 }
 
+@media only screen and (max-width: 950px) {
+  .work {
+    height: 300vh;
+  }
+  .TMtext {
+    margin-left: 0;
+  }
+}
+
 @media only screen and (max-width: 420px) {
   .work {
-    height: 470vh;
+    height: 370vh;
   }
   .TMtext {
     margin-left: 0;
