@@ -32,6 +32,9 @@
   border-radius: 20px 0;
   box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.9);
 }
+.centerImg {
+  align-content: center;
+}
 .TMtext {
   width: 85%;
   height: 60%;
@@ -48,7 +51,7 @@
   padding-bottom: 2em;
   margin-left: 25%;
 }
-@media only screen and (max-width: 1230px) {
+@media only screen and (max-width: 1300px) {
   .TMa-wrapper {
     min-width: 400px;
     margin-left: auto;
@@ -57,7 +60,7 @@
 @media only screen and (max-width: 1000px) {
   .TMa-wrapper {
     margin-left: auto;
-    min-width: 300px;
+    min-width: 100%;
     margin-left: auto;
   }
 }
@@ -70,17 +73,32 @@
     margin-left: 0;
   }
 }
-
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 770px) {
   .work {
-    height: 370vh;
+    height: 430vh;
   }
   .TMtext {
     margin-left: 0;
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 420px) {
+  .work {
+    height: 520vh;
+  }
+  .TMtext {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 415px) {
+  .work {
+    height: 400vh;
+  }
+  .TMtext {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 400px) {
   .work {
     height: 500vh;
   }
@@ -88,6 +106,7 @@
     margin-left: 0;
   }
 }
+
 .work-text {
   font-family: "roberto", sans-serif;
   color: #fff;
